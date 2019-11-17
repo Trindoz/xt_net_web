@@ -1,0 +1,6 @@
+C:\Users\ып\source\repos\EpamTasks\EpamTasks\bin\Debug\EpamTasks.exe.config
+C:\Users\ып\source\repos\EpamTasks\EpamTasks\bin\Debug\EpamTasks.exe
+C:\Users\ып\source\repos\EpamTasks\EpamTasks\bin\Debug\EpamTasks.pdb
+C:\Users\ып\source\repos\EpamTasks\EpamTasks\obj\Debug\EpamTasks.csprojAssemblyReference.cache
+C:\Users\ып\source\repos\EpamTasks\EpamTasks\obj\Debug\EpamTasks.exe
+C:\Users\ып\source\repos\EpamTasks\EpamTasks\obj\Debug\EpamTasks.pdb
