@@ -90,7 +90,6 @@ namespace EpamTasks
             Sort(array);
             Console.WriteLine("Отсортрованный массив: ");
             Show(array);
-
         }
         static void Show(int[][] array)
         {
