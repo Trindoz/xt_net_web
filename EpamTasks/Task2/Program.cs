@@ -9,171 +9,163 @@ namespace Task2
     {
         static void Main(string[] args)
         {
+            SelectTask();
+        }
+        static void SelectTask()
+        {
+            Console.ForegroundColor = ConsoleColor.White;
+            Console.WriteLine("Выберите заданаие");
+            Console.WriteLine("1-Round");
+            Console.WriteLine("2-Triangle");
+            Console.WriteLine("3-User");
+            Console.WriteLine("4-Vector Graphics Editor");
+            Console.WriteLine("Для выхода нажмите 0");
+            int a = Exception(Console.ReadLine());
+            switch (a)
+            {
+                case 0:
+                    Environment.Exit(0);
+                    break;
+                case 1:
+                    Console.WriteLine("Вы выбрали задание " + a);
+                    Round round = new Round();
+                    round.X = 5;
+                    round.Y = 7;
+                    round.Radius = 3;
+                    Console.WriteLine("Кординаты центра круга: " + round.X + " " + round.Y);
+                    Console.WriteLine("Радиус: " + round.Radius);
+                    Console.WriteLine("Длина окружности: " + round.Length);
+                    Console.WriteLine("Площадь круга: " + round.Area);
+                    Console.WriteLine();
+                    SelectTask();
+                    break;
+                case 2:
+                    Console.WriteLine("Вы выбрали задание " + a);
+                    Triangle triangle = new Triangle(3, 2, 3);
+                    Console.WriteLine("Периметр треугольника: " + triangle.TrianglePerimetr);
+                    Console.WriteLine("Площадь треугольника: " + triangle.TriangleArea);
+                    Console.WriteLine();
+                    SelectTask();
+                    break;
+                case 3:
+                    Console.WriteLine("Вы выбрали задание " + a);
+                    User user = new User("Иван", "Иванович", "Иванов");
+                    user.Birthday = new DateTime(1990, 01, 01);
+                    Console.WriteLine(user.Name + " " + user.SecondName + " " + user.Surname + " " + user.Birthday + " " + user.Age);
+                    Console.WriteLine();
+                    SelectTask();
+                    break;
+                case 4:
+                    Console.WriteLine("Вы выбрали задание " + a);
+                    Console.WriteLine("Выберите фигуру");
+                    Console.WriteLine("1-Line");
+                    Console.WriteLine("2-Circumference");
+                    Console.WriteLine("3-Rectangle");
+                    Console.WriteLine("4-Round");
+                    Console.WriteLine("5-Ring");
+                    Console.WriteLine("Для выхода нажмите 0");
 
-            Round round = new Round();
-            round.X = 5;
-            round.Y = 7;
-            Console.WriteLine("Кординаты центра круга: " + round.X + " " + round.Y);
-            Console.WriteLine("Радиус: " + round.Radius);
-            Console.WriteLine("Длина окружности: " + round.Circumference);
-            Console.WriteLine("Площадь круга: " + round.CircleArea);
-            Ring ring = new Ring();
-            ring.X = 3;
-            ring.Y = 4;
-            ring.OutsideRadius = 4;
-            Console.WriteLine("Кординаты центра кольца: " + ring.X + " " + ring.Y);
-            Console.WriteLine("Внутрений радиус: " + ring.Radius);
-            Console.WriteLine("Внешний радиус: " + ring.OutsideRadius);
-            Console.WriteLine("Длина внутренней окружности: " + ring.Circumference);
-            Console.WriteLine("Длина внешней окружности: " + ring.OutsideCircumference);
-            Console.WriteLine("Сумма двух окружностей:" + ring.SumOfCircumference);
-            Console.WriteLine("Площадь кольца: " + ring.RingArea);
-            Triangle triangle= new Triangle(3,2,3);
-            Console.WriteLine("Периметр треугольника: " + triangle.TrianglePerimetr);
-            Console.WriteLine("Площадь треугольника: " + triangle.TriangleArea);
-            User user = new User("Иван", "Иванович", "Иванов");
-            user.Birthday = new DateTime(1990, 01, 01);
-            Console.WriteLine(user.Name+" "+user.SecondName+" "+user.Surname+" "+user.Birthday+" "+user.Age);
-            Employee employee = new Employee();
-            employee.Name = "Петр";
-            employee.SecondName = "Петрович";
-            employee.Surname = "Петров";
-            employee.Birthday = new DateTime(1980, 01, 01);
-            Console.WriteLine(employee.Name + " " + employee.SecondName + " " + employee.Surname + " " + employee.Birthday + " " + employee.Age);
-            
-            
-           
-        }
-    }
-    class Round
-    {
-        private double radius;
-        protected const double PI = 3.14;
-        public double X;
-        public double Y;
-        public Round(double x = 0, double y = 0, double r = 1)
-        {
-            X = x;
-            Y = y;
-            Radius = r;
-        }
-        public double Radius
-        {
-            set
-            {
-                if (value <= 0)
-                    throw new ArgumentException("Значение радиуса должно быть положительным");
-                radius = value;
+                    int b= Exception(Console.ReadLine());
+                    switch (b)
+                    {
+                        case 0:
+                            SelectTask();
+                            break;
+                        case 1:
+                            Console.WriteLine("Вы выбрали Line");
+                            Line line = new Line();
+                            line.X = 1;
+                            line.Y = 3;
+                            line.X1 = 3;
+                            line.Y1 = 3;
+                            Console.WriteLine("Координаты точек для посторения линий: " + line.X + "," + line.Y + ";" + line.X1 + "," + line.Y1);
+                            Console.WriteLine("Длина линии: "+line.Length);
+                            Console.WriteLine();
+                            break;
+                        case 2:
+                            Console.WriteLine("Вы выбрали Circumference");
+                            Circumferece circumferece = new Circumferece();
+                            circumferece.X = 1;
+                            circumferece.Y = 2;
+                            circumferece.Radius = 5;
+                            Console.WriteLine("Координаты центра" + circumferece.X + ","+circumferece.Y);
+                            Console.WriteLine("Радиус: " + circumferece.Radius);
+                            Console.WriteLine("Длина окружности: "+circumferece.Length);
+                            Console.WriteLine();
+                            break;
+                        case 3:
+                            Console.WriteLine("Вы выбрали Rectangle");
+                            Rectangle rectangle = new Rectangle(1, 1, 3, 4);
+                            Console.WriteLine("Первоначальная точка прямоугольника  :"+rectangle.X+","+rectangle.Y);
+                            Console.WriteLine("Длина: " + rectangle.Height);
+                            Console.WriteLine("Ширина: " + rectangle.Width);
+                            Console.WriteLine();
+                            break;
+                        case 4:
+                            Console.WriteLine("Вы выбрали Round");
+                            Round r = new Round(3,2,5);
+                            Console.WriteLine("Кординаты центра круга: " + r.X + "," + r.Y);
+                            Console.WriteLine("Радиус: " + r.Radius);
+                            Console.WriteLine("Длина окружности: " + r.Length);
+                            Console.WriteLine("Площадь круга: " + r.Area);
+                            Console.WriteLine();
+                            break;
+                        case 5:
+                            Console.WriteLine("Вы выбрали Ring");
+                            Ring ring = new Ring();
+                            ring.X = 3;
+                            ring.Y = 4;
+                            ring.Radius = 3;
+                            ring.OutsideRadius = 4;
+                            Console.WriteLine("Кординаты центра кольца: " + ring.X + "," + ring.Y);
+                            Console.WriteLine("Внутрений радиус: " + ring.Radius);
+                            Console.WriteLine("Внешний радиус: " + ring.OutsideRadius);
+                            Console.WriteLine("Длина внутренней окружности: " + ring.Length);
+                            Console.WriteLine("Длина внешней окружности: " + ring.OutsideCircumference);
+                            Console.WriteLine("Сумма двух окружностей:" + ring.SumOfCircumference);
+                            Console.WriteLine("Площадь кольца: " + ring.Area);
+                            Console.WriteLine();
+                            break;                       
+                        default:
+                            Console.WriteLine("Задания с выбранным номером не существует ");
+                            Console.WriteLine();
+                            break;
+                    }
+                    goto case 4;
+                case 5:
+                    Console.WriteLine("Выберите фигуру");
+                    Console.WriteLine("1-Line");
+                    Console.WriteLine("2-Circumference");
+                    Console.WriteLine("3-Rectangle");
+                    Console.WriteLine("4-Round");
+                    Console.WriteLine("5-Ring");
+                    b = Exception(Console.ReadLine());
+                    break;               
+                default:
+                    Console.WriteLine("Задания с выбранным номером не существует ");
+                    Console.WriteLine("Введите номер задания ");
+                    Exception(Console.ReadLine());
+                    break;
             }
-            get { return radius; }
         }
-        public double Circumference
+        static int Exception(string s)
         {
-            get { return 2 * PI * radius; }
-        }
-        public double CircleArea
-        {
-            get { return PI * radius * radius; }
-        }
-    }
-    class Triangle
-    {
-        private double a;
-        private double b;
-        private double c;
-        public Triangle(double a = 1, double b = 1, double c = 1)
-        {
-            A = a;
-            B = b;
-            C = c;
-            if (A >= B + C)
-                throw new ArgumentException("Невозможно создать треугольник со стороной a");
-            if (B >= A + C)
-                throw new ArgumentException("Невозможно создать треугольник со стороной b");
-            if (C >= B + A)
-                throw new ArgumentException("Невозможно создать треугольник со стороной c");
-
-        }
-        public double A
-        {
-            private set
+            int x;
+            bool result = Int32.TryParse(s, out x);
+            if (result) ;
+            else
             {
-                if (value <= 0)
-                    throw new ArgumentException("Значение стороны а должно быть положительным");
-                a = value;
+                do
+                {
+                    Console.ForegroundColor = ConsoleColor.Red;
+                    Console.WriteLine("Неверный формат");
+                    Console.ForegroundColor = ConsoleColor.White;
+                    result = Int32.TryParse(Console.ReadLine(), out x);
+                }
+                while (result == false);
             }
-            get { return a; }
+            return x;
         }
-        public double B
-        {
-            private set
-            {
-                if (value <= 0)
-                    throw new ArgumentException("Значение стороны b должно быть положительным");
-                b = value;
-            }
-            get { return b; }
-        }
-        public double C
-        {
-            private set
-            {
-                if (value <= 0)
-                    throw new ArgumentException("Значение стороны c должно быть положительным");
-                c = value;
-            }
-            get { return c; }
-        }
-        public double TrianglePerimetr
-        {
-            get { return A + B + C; }
-        }
-        public double TriangleArea
-        {
-            get { return Math.Sqrt(((TrianglePerimetr / 2) * (TrianglePerimetr / 2 - a) * (TrianglePerimetr / 2 - b) * (TrianglePerimetr / 2 - c))); }
-        }
-    }
-    class User
-    {
-        private string name;
-        private string secondname;
-        private string surname;
-        private DateTime birthday;
-        private int age;
-        public string Name { get { return name; } set { if (value.Length < 1) throw new ArgumentException("Недопустимая длина имени"); name = value; } }
-        public string SecondName { get { return secondname; } set { if (value.Length < 1) throw new ArgumentException("Недопустимая длина отчества"); secondname = value; } }
-        public string Surname { get { return surname; } set { if (value.Length < 1) throw new ArgumentException("Недопустимая длина фамилии"); surname = value; } }
-        public DateTime Birthday { get { return birthday; } set { birthday = value; } }
-        public int Age { get { return age= DateTime.Now.Year - birthday.Year; }  private set { age = value; } }
-        public User() { }
-        public User(string name, string secondname, string surname)
-        {
-            Name = name;
-            SecondName = secondname;
-            Surname = surname;          
-        }
-    }
-    class Employee : User
-    {
-        
-        private int duration;
-        private string position;
-        public int DurationOfWork { get { return duration; } set { if (value < 0) throw new ArgumentException("Значение должно быть положительным"); duration = value;  } }
-        public string Position { get { return position; } set { if (value.Length < 1) throw new ArgumentException("Недопустимая длина должности"); position = value; } }
-    }
-    class Ring : Round
-    {
-        public Ring(double x=0, double y=0, double r=1, double r2=2):base(x,y,r)
-        {
-           OutsideRadius=r2;
-        }
-        private double outsideradius;
-        public double OutsideRadius{set{if (value <= Radius)throw new ArgumentException("Значение внешнего радиуса должно быть больше внутреннего");outsideradius = value;}get { return outsideradius; }}
-        public double OutsideCircumference { get { return 2 * PI * outsideradius; } }
-        public double SumOfCircumference { get { return Circumference + OutsideCircumference; } }
-        public double RingArea { get { return PI * (OutsideRadius * OutsideRadius - Radius * Radius); } }
-    }
-    
-
+    }    
 }
 
