@@ -11,19 +11,13 @@ namespace Task4
     {
         static void Main(string[] args)
         {
+            MyClass.CustomSortDemo();
+            Console.WriteLine();
 
-            string[] text = { "AABB ", "A ", "BB ", "CAB ", "BBAA ", "CFBD " };
-            Console.WriteLine("Original text ");
-            foreach (var item in text)
-                Console.Write(item);
-            Console.WriteLine();
-            Class1<string>.CustomSort(text, Class1<string>.CompareString);
-            Console.WriteLine("The text after sorting ");
-            foreach (var item in text)
-                Console.Write(item);
-            Console.WriteLine();
-            Console.WriteLine(Class1<int>.NumberArraySum(new int[] { 2, 2, 3, 4, 5 }));
-            Console.WriteLine(Class1<string>.ToIntOrNotToInt("1"));
+            MyThread thread1 = new MyThread("Thread 1");
+           
+            
+
 
 
 

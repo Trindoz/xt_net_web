@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace Task4
 {
-    class Class1<T>
+    class MyClass
     {
         public static void CustomSort<T>(T[] array, Func<T, T, bool> func)
 
@@ -25,7 +25,7 @@ namespace Task4
                     }
                 }
             }
-        }
+        }   
         public static bool CompareString(string s1, string s2)
         {
             if (s1.Length > s2.Length)  return true; 
@@ -40,12 +40,26 @@ namespace Task4
             return false;
 
         }
+       
+        public static void CustomSortDemo()
+        {
+            string[] text = { "AABB ", "A ", "BB ", "CAB ", "BBAA ", "CFBD " };
+            Console.WriteLine("Original text ");
+            foreach (var item in text)
+                Console.Write(item);
+            Console.WriteLine();
+            MyClass.CustomSort(text, MyClass.CompareString);
+            Console.WriteLine("The text after sorting ");
+            foreach (var item in text)
+                Console.Write(item);
+            Console.WriteLine();
+        }
         public static int NumberArraySum(int[] arr)
         {
             int sum = 0;
             for (int i = 0; i< arr.Length; i++)
             {
-                sum += arr[i];
+                sum+=arr[i];
             }
             return sum;
         }
@@ -57,6 +71,8 @@ namespace Task4
                 if (!char.IsDigit(s[i])||s=="0") return false;
             }
             return true;
-        }      
+        }
+        
+       
     }
 }
