@@ -7,9 +7,13 @@ using System.Threading.Tasks;
 
 namespace Task4
 {
+    delegate void MyEventHandler();
+    delegate void Status(string s);
     class MyThread
-    {     
+    {    
         public Thread thread;
+        public MyThread() { }
+
         public MyThread(string name)
         {
             thread = new Thread(Run);
@@ -18,39 +22,47 @@ namespace Task4
         }
         void Run()
         {
-            Console.WriteLine("We are starting a new thread: "+thread.Name);         
+            Console.WriteLine("We are starting a new thread: " + thread.Name);
             SortingInThread();
         }
-        public static void SortingInThread()
+        public void SortingInThread()
         {
-            Action<string> show = Display;
-            Action empty_line = DisplayEmptyLine;
-            Action status = DisplayStatus;
+            MyThread status = new MyThread();         
+            Status show= new Status(Display);
             show("Words  before sorting: ");
             string[] words = { "AABB ", "A ", "BB ", "CAB ", "BBAA ", "CFBD " };
             foreach (var item in words)
                 show(item);
-            empty_line();
+            show(null);
             MyClass.CustomSort(words, MyClass.CompareString);
             show("We are starting to sort something, please, wait a few seconds......");
-            Thread.Sleep(5000);
-            empty_line();
+            Thread.Sleep(500);
+            show(null);
             show("Words after sorting: ");
             foreach (var item in words)
                 show(item);
-            empty_line();
-            status();
+            show(null);
+            status.SomeEvent+=DisplayStatus;
+            status.OnSomeEvent();
         }
-        public static void DisplayEmptyLine()
+
+        public event MyEventHandler SomeEvent;
+        public void OnSomeEvent()
+        {
+            if (SomeEvent != null)
+                SomeEvent();
+        }
+        public void DisplayEmptyLine()
         {
             Console.WriteLine();
         }
-        public static void DisplayStatus()
-        {
-            Console.WriteLine("Sorting has finished!");
+        public void DisplayStatus()
+        {  
+            Console.WriteLine("Sorting has finished!");  
         }
-        public static void Display(string s)
+        public void Display(string s)
         {
+            if (s == null) Console.WriteLine();
             Console.Write(s);
         }
     }
