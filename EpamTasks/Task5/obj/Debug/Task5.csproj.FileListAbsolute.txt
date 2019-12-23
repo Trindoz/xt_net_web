@@ -1,0 +1,8 @@
+C:\Users\ып\Desktop\EPAM\xt_net_web\EpamTasks\Task5\bin\Debug\Task5.exe.config
+C:\Users\ып\Desktop\EPAM\xt_net_web\EpamTasks\Task5\bin\Debug\Task5.exe
+C:\Users\ып\Desktop\EPAM\xt_net_web\EpamTasks\Task5\bin\Debug\Task5.pdb
+C:\Users\ып\Desktop\EPAM\xt_net_web\EpamTasks\Task5\obj\Debug\Task5.csprojAssemblyReference.cache
+C:\Users\ып\Desktop\EPAM\xt_net_web\EpamTasks\Task5\obj\Debug\Task5.exe
+C:\Users\ып\Desktop\EPAM\xt_net_web\EpamTasks\Task5\obj\Debug\Task5.pdb
+C:\Users\ып\Desktop\EPAM\xt_net_web\EpamTasks\Task5\bin\Debug\Newtonsoft.Json.dll
+C:\Users\ып\Desktop\EPAM\xt_net_web\EpamTasks\Task5\obj\Debug\Task5.csproj.CopyComplete

@@ -1,0 +1,6 @@
+C:\Users\ып\Desktop\EPAM\xt_net_web\EpamTasks\Task0\bin\Debug\EpamTasks.exe.config
+C:\Users\ып\Desktop\EPAM\xt_net_web\EpamTasks\Task0\bin\Debug\EpamTasks.exe
+C:\Users\ып\Desktop\EPAM\xt_net_web\EpamTasks\Task0\bin\Debug\EpamTasks.pdb
+C:\Users\ып\Desktop\EPAM\xt_net_web\EpamTasks\Task0\obj\Debug\Task0.csprojAssemblyReference.cache
+C:\Users\ып\Desktop\EPAM\xt_net_web\EpamTasks\Task0\obj\Debug\EpamTasks.exe
+C:\Users\ып\Desktop\EPAM\xt_net_web\EpamTasks\Task0\obj\Debug\EpamTasks.pdb
