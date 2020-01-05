@@ -27,7 +27,7 @@ namespace Task5
     {
         public static void Writing(string date)
         {
-        Dictionary<string, FileInfo[]> files = new Dictionary<string, FileInfo[]>();
+        Dictionary<string,List<DataFile>> files = new Dictionary<string, List<DataFile>>();
             DirectoryInfo dir = new DirectoryInfo(@"C:\Users\ып\Desktop\Task5\Archives");
             FileInfo[] txtfiles = dir.GetFiles("*.txt");  
             files.Add(date, txtfiles);               

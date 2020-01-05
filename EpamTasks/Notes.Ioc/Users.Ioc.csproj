@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Notes.BLL.Interfaces\Notes.BLL.Interfaces.csproj" />
+    <ProjectReference Include="..\Notes.BLL\Notes.BLL.csproj" />
+    <ProjectReference Include="..\Notes.Dao.Interfaces\Notes.Dao.Interfaces.csproj" />
+  </ItemGroup>
+
+</Project>

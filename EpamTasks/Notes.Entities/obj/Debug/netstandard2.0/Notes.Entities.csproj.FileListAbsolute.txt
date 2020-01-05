@@ -1,0 +1,8 @@
+C:\Users\ып\Desktop\EPAM\xt_net_web\EpamTasks\Notes.Entities\bin\Debug\netstandard2.0\Notes.Entities.deps.json
+C:\Users\ып\Desktop\EPAM\xt_net_web\EpamTasks\Notes.Entities\bin\Debug\netstandard2.0\Notes.Entities.dll
+C:\Users\ып\Desktop\EPAM\xt_net_web\EpamTasks\Notes.Entities\bin\Debug\netstandard2.0\Notes.Entities.pdb
+C:\Users\ып\Desktop\EPAM\xt_net_web\EpamTasks\Notes.Entities\obj\Debug\netstandard2.0\Notes.Entities.csprojAssemblyReference.cache
+C:\Users\ып\Desktop\EPAM\xt_net_web\EpamTasks\Notes.Entities\obj\Debug\netstandard2.0\Notes.Entities.AssemblyInfoInputs.cache
+C:\Users\ып\Desktop\EPAM\xt_net_web\EpamTasks\Notes.Entities\obj\Debug\netstandard2.0\Notes.Entities.AssemblyInfo.cs
+C:\Users\ып\Desktop\EPAM\xt_net_web\EpamTasks\Notes.Entities\obj\Debug\netstandard2.0\Notes.Entities.dll
+C:\Users\ып\Desktop\EPAM\xt_net_web\EpamTasks\Notes.Entities\obj\Debug\netstandard2.0\Notes.Entities.pdb

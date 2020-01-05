@@ -1,0 +1,11 @@
+C:\Users\ып\Desktop\EPAM\xt_net_web\EpamTasks\Notes.Dao.Interfaces\bin\Debug\netstandard2.0\Notes.Dao.Interfaces.deps.json
+C:\Users\ып\Desktop\EPAM\xt_net_web\EpamTasks\Notes.Dao.Interfaces\bin\Debug\netstandard2.0\Notes.Dao.Interfaces.dll
+C:\Users\ып\Desktop\EPAM\xt_net_web\EpamTasks\Notes.Dao.Interfaces\bin\Debug\netstandard2.0\Notes.Dao.Interfaces.pdb
+C:\Users\ып\Desktop\EPAM\xt_net_web\EpamTasks\Notes.Dao.Interfaces\bin\Debug\netstandard2.0\Notes.Entities.dll
+C:\Users\ып\Desktop\EPAM\xt_net_web\EpamTasks\Notes.Dao.Interfaces\bin\Debug\netstandard2.0\Notes.Entities.pdb
+C:\Users\ып\Desktop\EPAM\xt_net_web\EpamTasks\Notes.Dao.Interfaces\obj\Debug\netstandard2.0\Notes.Dao.Interfaces.csprojAssemblyReference.cache
+C:\Users\ып\Desktop\EPAM\xt_net_web\EpamTasks\Notes.Dao.Interfaces\obj\Debug\netstandard2.0\Notes.Dao.Interfaces.AssemblyInfoInputs.cache
+C:\Users\ып\Desktop\EPAM\xt_net_web\EpamTasks\Notes.Dao.Interfaces\obj\Debug\netstandard2.0\Notes.Dao.Interfaces.AssemblyInfo.cs
+C:\Users\ып\Desktop\EPAM\xt_net_web\EpamTasks\Notes.Dao.Interfaces\obj\Debug\netstandard2.0\Notes.Dao.Interfaces.csproj.CopyComplete
+C:\Users\ып\Desktop\EPAM\xt_net_web\EpamTasks\Notes.Dao.Interfaces\obj\Debug\netstandard2.0\Notes.Dao.Interfaces.dll
+C:\Users\ып\Desktop\EPAM\xt_net_web\EpamTasks\Notes.Dao.Interfaces\obj\Debug\netstandard2.0\Notes.Dao.Interfaces.pdb
