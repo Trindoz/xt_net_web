@@ -1,0 +1,13 @@
+C:\Users\ып\source\repos\EpamTask6.User.BLL\EpamTask6.User.DAL\bin\Debug\netstandard2.0\Users.DAL.deps.json
+C:\Users\ып\source\repos\EpamTask6.User.BLL\EpamTask6.User.DAL\bin\Debug\netstandard2.0\Users.DAL.dll
+C:\Users\ып\source\repos\EpamTask6.User.BLL\EpamTask6.User.DAL\bin\Debug\netstandard2.0\Users.DAL.pdb
+C:\Users\ып\source\repos\EpamTask6.User.BLL\EpamTask6.User.DAL\bin\Debug\netstandard2.0\Users.Dao.Interfaces.dll
+C:\Users\ып\source\repos\EpamTask6.User.BLL\EpamTask6.User.DAL\bin\Debug\netstandard2.0\Users.Entities.dll
+C:\Users\ып\source\repos\EpamTask6.User.BLL\EpamTask6.User.DAL\bin\Debug\netstandard2.0\Users.Dao.Interfaces.pdb
+C:\Users\ып\source\repos\EpamTask6.User.BLL\EpamTask6.User.DAL\bin\Debug\netstandard2.0\Users.Entities.pdb
+C:\Users\ып\source\repos\EpamTask6.User.BLL\EpamTask6.User.DAL\obj\Debug\netstandard2.0\Users.DAL.csprojAssemblyReference.cache
+C:\Users\ып\source\repos\EpamTask6.User.BLL\EpamTask6.User.DAL\obj\Debug\netstandard2.0\Users.DAL.AssemblyInfoInputs.cache
+C:\Users\ып\source\repos\EpamTask6.User.BLL\EpamTask6.User.DAL\obj\Debug\netstandard2.0\Users.DAL.AssemblyInfo.cs
+C:\Users\ып\source\repos\EpamTask6.User.BLL\EpamTask6.User.DAL\obj\Debug\netstandard2.0\Users.DAL.csproj.CopyComplete
+C:\Users\ып\source\repos\EpamTask6.User.BLL\EpamTask6.User.DAL\obj\Debug\netstandard2.0\Users.DAL.dll
+C:\Users\ып\source\repos\EpamTask6.User.BLL\EpamTask6.User.DAL\obj\Debug\netstandard2.0\Users.DAL.pdb

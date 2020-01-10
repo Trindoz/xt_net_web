@@ -1,0 +1,11 @@
+C:\Users\ып\source\repos\EpamTask6.User.BLL\User.BLL.Interfaces\bin\Debug\netstandard2.0\Users.BLL.Interfaces.deps.json
+C:\Users\ып\source\repos\EpamTask6.User.BLL\User.BLL.Interfaces\bin\Debug\netstandard2.0\Users.BLL.Interfaces.dll
+C:\Users\ып\source\repos\EpamTask6.User.BLL\User.BLL.Interfaces\bin\Debug\netstandard2.0\Users.BLL.Interfaces.pdb
+C:\Users\ып\source\repos\EpamTask6.User.BLL\User.BLL.Interfaces\bin\Debug\netstandard2.0\Users.Entities.dll
+C:\Users\ып\source\repos\EpamTask6.User.BLL\User.BLL.Interfaces\bin\Debug\netstandard2.0\Users.Entities.pdb
+C:\Users\ып\source\repos\EpamTask6.User.BLL\User.BLL.Interfaces\obj\Debug\netstandard2.0\Users.BLL.Interfaces.csprojAssemblyReference.cache
+C:\Users\ып\source\repos\EpamTask6.User.BLL\User.BLL.Interfaces\obj\Debug\netstandard2.0\Users.BLL.Interfaces.AssemblyInfoInputs.cache
+C:\Users\ып\source\repos\EpamTask6.User.BLL\User.BLL.Interfaces\obj\Debug\netstandard2.0\Users.BLL.Interfaces.AssemblyInfo.cs
+C:\Users\ып\source\repos\EpamTask6.User.BLL\User.BLL.Interfaces\obj\Debug\netstandard2.0\Users.BLL.Interfaces.csproj.CopyComplete
+C:\Users\ып\source\repos\EpamTask6.User.BLL\User.BLL.Interfaces\obj\Debug\netstandard2.0\Users.BLL.Interfaces.dll
+C:\Users\ып\source\repos\EpamTask6.User.BLL\User.BLL.Interfaces\obj\Debug\netstandard2.0\Users.BLL.Interfaces.pdb
