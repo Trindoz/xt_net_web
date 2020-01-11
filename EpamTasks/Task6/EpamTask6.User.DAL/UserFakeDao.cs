@@ -14,7 +14,7 @@ namespace Users.DAL
     {
         private static string _path = @"C:\Users\ып\Desktop\Task6\users.json";
         private static readonly Dictionary<int, User> _user = new Dictionary<int, User>();
-        private static List<Award> _award = new List<Award>();
+     
         static UserFakeDao()
         {
             if (File.Exists(_path))
@@ -31,14 +31,7 @@ namespace Users.DAL
             Writing();
             return user;
         }
-        public bool AddAward(int userid, Award award)
-        {
-            User user=GetById(userid);
-            _award.Add(award);
-            user.Award=_award;
-            Writing();          
-            return true;
-        }
+       
         public bool DeleteUser(int id)
         {
             bool result =_user.Remove(id);
@@ -68,14 +61,44 @@ namespace Users.DAL
             }
             else File.AppendAllText(_path, serialized);
         }
-
-        public bool DeleteAward(int userid, Award award)
+        public bool AddAward(int userid, Award award)
         {
+            List<Award> awards;
             User user = GetById(userid);
-            _award.Remove(award);
-            user.Award = _award;
+            if (user.Award == null)
+            {
+                awards = new List<Award>();
+                awards.Add(award);
+                user.Award = awards;
+                return true;
+            }
+            else
+            {
+                awards = user.Award;
+                foreach (var item in awards)
+                {
+                    if (item == award) 
+                    return false;
+                }
+                awards.Add(award);
+                user.Award = awards;
+                Writing();
+                return true;
+            }
+        }
+        public bool DeleteAward(int userid, Award award)
+        {         
+            List<Award> awards;
+            User user = GetById(userid);
+            awards = user.Award;
+            var itemToRemove = awards.SingleOrDefault(r => r.Id == award.Id);
+                if (itemToRemove != null)
+                    awards.Remove(itemToRemove);
+            user.Award = awards;
             Writing();
-            return true;
+                return true;
+          
+            
         }
     }
 }
