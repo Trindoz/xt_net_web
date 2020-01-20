@@ -1,0 +1,27 @@
+.topmenu li{
+    list-style: none;
+    display: inline-block;
+    color: blue;;
+    text-decoration: underline;
+    cursor: pointer;
+    padding: 15px;
+}
+.submenu{
+    position: relative;
+    text-decoration: none;
+}
+.submenu ul{
+    display: none;   
+    text-decoration: none;
+}
+.submenu:hover{
+    display:inline-block;
+}
+.submenu:hover>ul{
+    display: block; 
+    text-decoration: none;
+    color: black;
+    box-shadow: 0 0 5px;
+}
+
+  

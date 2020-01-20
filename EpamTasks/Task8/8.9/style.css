@@ -1,0 +1,29 @@
+body{
+    margin: 50px
+}
+div{
+    display:inline-block;
+    width: 100px;
+    height: auto;
+    padding: 5px;
+    background: linear-gradient(to top, #dedede, #c0c0c0 50%, #dedede 100%);
+    margin: -5px;
+ text-align: center;
+    
+}
+#step1{
+    clip-path: polygon(90% 0, 100% 50%, 90% 100%, 0 100%, 0 0);
+}
+#step2{
+color: white;
+background: linear-gradient(to top, #b2e28f, #66c620 50%, #b2e28f 100%);
+clip-path: 
+polygon(0 0, 90% 0, 100% 50%, 90% 100%, 0 100%, 10% 50%);
+}
+#step3{
+    clip-path: 
+polygon(0 0, 90% 0, 100% 50%, 90% 100%, 0 100%, 10% 50%);
+}
+#step4{
+clip-path: polygon(100% 0, 100% 100%, 0 100%, 10% 50%, 0 0);
+}

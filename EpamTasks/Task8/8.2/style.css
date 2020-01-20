@@ -1,0 +1,43 @@
+body{
+    margin: 0px;
+    margin-top: 100px;
+}
+.container{
+    width: 450px;
+    height: 250px;
+    margin:0 auto;
+    background-color: #0690cf;
+    color: white;
+    border:3px groove #0075b2 ;
+}
+h1{
+     font-weight: normal;
+    margin-left: 20px;   
+    margin-bottom: 5px;
+}
+hr{
+    background-color: white;
+    
+    height:1;
+}
+.form{
+    margin-left: 5px;
+}
+#email{
+    width: 407px;
+    
+    display: list-item;
+}
+.password
+{
+    display: inline;
+    margin-right: 155px;
+}
+.box_password{
+width: 200px;
+display: inline;
+}
+#buttom{
+    background-color:#ffdf7f;
+    color:black;
+}

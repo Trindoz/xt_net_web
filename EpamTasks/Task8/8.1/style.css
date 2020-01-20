@@ -1,0 +1,24 @@
+.menu_box{
+    width: 200px;
+    background: #f9e497;
+    color: #911510; 
+    border:  1px solid black;
+    border-radius: 10px;
+    box-shadow: #911510 5px 5px;
+    font-weight: 500;
+}
+.text{
+    list-style-type:none;
+    text-align: left;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding: 3px;
+    line-height: 1.5;
+}
+.few_strings{   
+    line-height: 1;
+}
+
+
+
+

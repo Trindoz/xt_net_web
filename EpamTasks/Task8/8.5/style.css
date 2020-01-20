@@ -1,0 +1,131 @@
+body{
+    background-color:#4e6379;
+    margin: 50px;
+}
+.container{
+width: 450px;
+height: 200px;
+background-color: white;
+border-radius: 5px;
+box-shadow: 0 25px 40px rgba(0,0,0,0.4);
+display: inline-block;
+}
+.block1{
+   position: absolute;
+   width: 150px;
+    height: 200px;
+    background: url(image.png) no-repeat 42px 26px;
+}
+#text1{
+   position: absolute;
+    margin-top: 68px;
+    margin-left: 5px;
+    width:145px;
+    height: 42px;
+    background-color: white;
+}
+#price1{
+    position: absolute;
+    margin-top: 108px;
+    margin-left: 5px;
+    width:145px;
+    height: 42px;
+    background-color: white;
+    text-align: center; 
+    font-size: smaller;
+}
+h1{
+    position: absolute;
+    font-size: smaller;
+    color:#f56332;
+    text-align:center;
+}
+.block2{
+    width:150px ;
+    height: 150px;
+    margin-top: 25px;
+    margin-left: 150px;
+    border-right: 1px solid #e6e6e6;
+    border-left: 1px solid #e6e6e6;
+    background: url(image.png) no-repeat;
+    background-position: 50px -42px;
+}
+#text2{
+    position: absolute;
+    margin-top: 42px;
+    width:150px;
+    height: 42px;
+    background-color: white;
+}
+#price2{
+    position: absolute;
+    margin-top: 85px;
+    margin-left: 35px;
+    text-align: center; 
+    font-size: smaller;
+}
+h2{
+    
+    font-size: smaller;
+    color:#f56332;
+    text-align:center;
+}
+.block3{
+    position: absolute;
+    margin-left: 300px;
+    margin-top: -153px;
+    width: 150px;
+     height: 200px;
+     background: url(image.png) no-repeat ;
+     background-position: 50px -84px;
+}   
+#text3{
+    position: absolute;
+
+    margin-top: 44px;
+    margin-left: 7px;
+    background-color: white;
+}
+#price3{
+    position: absolute;
+    margin-top: 88px;
+    margin-left: 35px;
+    text-align: center; 
+    font-size: smaller;
+}
+h3{
+    
+    font-size: smaller;
+    color:#f56332;
+    text-align:center;
+}
+.buttom1{
+  position:absolute;
+    background-color:#f56332; 
+    color:white;
+    height: 23px;
+    border: none;
+     border-radius: 3px;
+     margin-top: 130px;
+     margin-left: 30px;
+}
+.buttom2{
+    
+    background-color:#f56332; 
+    color:white;
+    height: 23px;
+    border: none;
+    border-radius: 3px;
+    margin-top: 120px;
+    margin-left: 35px;
+}
+.buttom3{
+    
+    background-color:#f56332; 
+    color:white;
+    height: 23px;
+    border: none;
+    margin-top: 107px;
+    margin-left: 35px;
+     border-radius: 3px;
+}

@@ -1,0 +1,58 @@
+body{
+    background-color: #333333;
+    margin:50px;
+}
+div{
+    background:linear-gradient(to bottom, #ffd059, #ff8c00);
+     border-radius: 7px 7px 0 0;
+     z-index: 1;   
+}
+.horizont {
+    position: relative;
+    height: 300px;
+    width:292px;
+    background: repeating-linear-gradient(to bottom, transparent, 
+    transparent 25px, #333333 25px, #333333 30px);
+    z-index: 2;  
+    }
+    .vertical1{
+        position: relative;     
+        height: 150px;
+        width:30px;
+        margin-top: -150px;
+    }
+    .vertical2{ 
+        position: relative;     
+        height: 60px;
+        width:30px;
+        margin-left: 35px;
+        margin-top: -60px;
+    }
+    .vertical3{
+        position: relative;     
+        height: 210px;
+        width:30px;
+        margin-left: 70px;
+        margin-top: -210px;
+    }
+    .vertical4{
+        position: relative;     
+        height: 300px;
+        width:30px;
+        margin-left: 105px;
+        margin-top: -300px;
+    }
+    .vertical5{
+        position: relative;     
+        height: 150px;
+        width:30px;
+        margin-left: 140px;
+        margin-top: -150px;
+    }
+    .vertical6{
+        position: relative;     
+        height: 90px;
+        width:30px;
+        margin-left: 175px;
+        margin-top: -90px;
+    }
