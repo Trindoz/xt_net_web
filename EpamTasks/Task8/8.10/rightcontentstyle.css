@@ -1,0 +1,9 @@
+.contentbox3{
+    width:200px;
+    height: 300px;
+   margin-left:920px;
+    background-color: #fff;
+    border-radius: 3px;
+    position: fixed;
+    z-index: -1;
+}

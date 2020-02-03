@@ -1,0 +1,18 @@
+.head{
+    padding: 50px;
+  
+}
+form{
+    position: absolute;
+    margin-top: -15px;
+    display: flex;
+    z-index: -1;
+}
+div>input{
+    display:block;
+    width: 30px;
+}
+.select{
+    width:150px;
+    height: 200px;
+}

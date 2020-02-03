@@ -1,0 +1,39 @@
+
+hr{
+    border: none;
+    height: 1px;
+    background-color: red;
+}
+.contentbox2{
+    width: 600px;
+    height:600px;
+    background-color: #fff;
+    border-radius: 3px;
+}
+.contentbox2>div,h1{
+    display: flex;
+    margin-left: 20px;
+  
+}
+.contentbox2>div>p{
+    width: 180px; 
+}
+.contentbox2 ul, input{
+    padding: 0;
+    margin-left: 0;
+    
+}
+li{
+list-style: none;
+}
+a{
+    text-decoration: none;
+}
+.profilesettings div{
+    display: block;
+}
+.question{
+    color: gray;
+}
+
+
