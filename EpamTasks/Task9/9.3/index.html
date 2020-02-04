@@ -10,21 +10,25 @@
 <body>
     <h class="head">Availiable</h>
     <h class="head">Selected</h>
-    <form>
-        <p>
-        <select class="select" size="7">      
-         <option>Option1</option>
-         <option>Option2</option>
-         <option>Option3</option>
-         <option>Option4</option>
-         <option>Option5</option>
+    <div class="container">
+        <p> 
+            <select id="availiable" size="7">      
+                <option>Option1</option>
+                <option>Option2</option>
+                <option>Option3</option>
+                <option>Option4</option>
+                <option>Option5</option>
+            </select>
+        </p>
+        <div id="button">
+            <button id="button1" onclick="move('availiable','selected',false)">>></button>
+            <button id="button2" onclick="move('availiable','selected',true)">></button>
+            <button id="button3" onclick="move('selected','availiable',true)"><</button>
+            <button id="button4" onclick="move('selected','availiable',false)"><<</button>
+        </div>
+        <p><select id="selected" size="7">
         </select></p>
-        <div><input type="submit" value=">">
-        <input type="submit" value="<">
-        <input type="submit" value=">>">
-        <input type="submit" value="<<"></div>
-        <p><select class="select" size="7">
-        </select></p>
-       </form>
+       </div>
+       <script src="script.js" ></script>
 </body>
 </html>
