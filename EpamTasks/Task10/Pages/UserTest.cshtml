@@ -1,0 +1,24 @@
+﻿@using Task11.User.Ioc
+@if(!IsPost)
+{
+    var studentLogic = UserIoc.UserLogic;
+    <table>
+        <tr>
+            <th>id</th>
+            <th>name</th>
+        </tr>
+        @foreach (var item in studentLogic.GetAll())
+        {
+            <tr>
+                <th>@item.Id</th>
+                <th>@item.Name</th>
+            </tr>
+        }
+
+    </table>
+}
+else
+{
+    //redirect to 404
+
+}

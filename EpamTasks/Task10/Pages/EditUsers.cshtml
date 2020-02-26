@@ -1,0 +1,114 @@
+﻿@using Users.Ioc
+@using Users.Entities
+@{
+    Layout = "~/Layouts/_AdminLayout.cshtml";
+    Page.Title = "EditUsers";
+    var logic = DependencyResolver.UserLogic;
+    var awardlogic = DependencyResolver.AwardLogic;
+    if (IsPost)
+    {
+        string userid = Request["delete"];
+        int x = Int32.Parse(userid);
+        logic.DeleteUser(x);
+        //string awardid = Request["awardid"];
+        //string useridaward = Request["userid"];
+        //int y = Int32.Parse(awardid);
+        //int z = Int32.Parse(useridaward);
+        //Award award = awardlogic.GetById(y);
+        //logic.DeleteAward(z,award);
+    }
+
+
+    }
+
+    <div style="position:absolute; margin-left:20px; margin-top:100px; width:500px;">
+        
+            <table class="table table-striped table-dark">
+                <thead>
+                    <tr>
+                        <th scope="col">Id</th>
+                        <th scope="col">Photo</th>
+                        <th scope="col">Name</th>
+                        <th scope="col">Birthday</th>
+                        <th scope="col">Age</th>
+                        <th scope="col">Awards</th>
+                        <th scope="col" class="text-center">Actions</th>
+                    </tr>
+                </thead>
+                <tbody class="add">
+
+                    @{
+                        foreach (var item in logic.GetAll())
+                        {
+                            <tr id="user">
+                                <td>@item.Id</td>
+                                <td>
+                                    <div>
+                                        @{if (item.Photo != null)
+                                            { <img style="width:50px;height:50px;" src="@item.Photo" alt="image" />}
+                                            else
+                                            {
+                                                <img id="previewimage" data-id="@item.Name" style="width:50px;height:50px;" src="~/Images/thumbs/thumbnail.jpg" alt="image" />}
+                                        }
+                       
+                                    </div>
+                                </td>
+                                <td>@item.Name</td>
+                                <td>@item.DateOfBirth.ToString("yyyy-MM-dd")</td>
+                                <td>@item.Age</td>
+                                <td>
+
+                                    @{ if (item.Award != null)
+                                        {
+                                            foreach (var i in item.Award)
+                                            {@i.Title<br>}
+                                        }
+                                    }
+                                </td>
+                                <td class="text-center" id="set_value">
+                                    <form method="post">
+                                        <a class="btn btn-sm btn-warning" href="~/Pages/Edit.cshtml?id=@item.Id">Edit</a>
+                                        <input type="hidden" name="delete" value="@item.Id"/>
+                                        <button type="submit" id="button_value" class="btn btn-danger btn-sm">Delete</button>
+                                    </form>
+                                </td>
+                            </tr>
+                        }
+                    }
+                </tbody>
+            </table>
+        <div class="text-center">
+            <a class="btn btn-primary" href="Add.cshtml">Add User</a>
+        </div>
+    </div>
+<script src="~/Scripts/jquery-3.0.0.js"></script>
+<script>
+    function readURL(input) {
+        if (input.files && input.files[0]) {
+            var reader = new FileReader();
+
+            reader.onload = function (e) {
+                $('previewimage').attr('src', e.target.result);
+            }
+            reader.readAsDataURL(input.files[0]);
+        }
+    }
+    $('#btn_update').click(function () {
+        
+        location.href = 'Update.cshtml';
+        
+    });
+    $(".inputFile").change(function () {
+        readURL(this);
+    });
+    function alert(input) {
+        alert('input');
+    }
+    var button = document.querySelectorAll("#button_value");
+    for (var i = 0; i < button.length; i++) {
+        button[i].addEventListener('click', raz, false);
+    }
+    function raz() {
+        document.querySelector('#set_value [type="hidden"]').value = this.value;
+    } 
+</script>

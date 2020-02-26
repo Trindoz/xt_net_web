@@ -9,3 +9,14 @@ C:\Users\ып\source\repos\EpamTask6.User.BLL\EpamTask6.User.DAO.Interfaces\obj\
 C:\Users\ып\source\repos\EpamTask6.User.BLL\EpamTask6.User.DAO.Interfaces\obj\Debug\netstandard2.0\Users.Dao.Interfaces.csproj.CopyComplete
 C:\Users\ып\source\repos\EpamTask6.User.BLL\EpamTask6.User.DAO.Interfaces\obj\Debug\netstandard2.0\Users.Dao.Interfaces.dll
 C:\Users\ып\source\repos\EpamTask6.User.BLL\EpamTask6.User.DAO.Interfaces\obj\Debug\netstandard2.0\Users.Dao.Interfaces.pdb
+C:\Users\ып\Desktop\EPAM\xt_net_web\EpamTasks\Task6\EpamTask6.User.DAO.Interfaces\bin\Debug\netstandard2.0\Users.Dao.Interfaces.deps.json
+C:\Users\ып\Desktop\EPAM\xt_net_web\EpamTasks\Task6\EpamTask6.User.DAO.Interfaces\bin\Debug\netstandard2.0\Users.Dao.Interfaces.dll
+C:\Users\ып\Desktop\EPAM\xt_net_web\EpamTasks\Task6\EpamTask6.User.DAO.Interfaces\bin\Debug\netstandard2.0\Users.Dao.Interfaces.pdb
+C:\Users\ып\Desktop\EPAM\xt_net_web\EpamTasks\Task6\EpamTask6.User.DAO.Interfaces\bin\Debug\netstandard2.0\Users.Entities.dll
+C:\Users\ып\Desktop\EPAM\xt_net_web\EpamTasks\Task6\EpamTask6.User.DAO.Interfaces\bin\Debug\netstandard2.0\Users.Entities.pdb
+C:\Users\ып\Desktop\EPAM\xt_net_web\EpamTasks\Task6\EpamTask6.User.DAO.Interfaces\obj\Debug\netstandard2.0\Users.Dao.Interfaces.csprojAssemblyReference.cache
+C:\Users\ып\Desktop\EPAM\xt_net_web\EpamTasks\Task6\EpamTask6.User.DAO.Interfaces\obj\Debug\netstandard2.0\Users.Dao.Interfaces.AssemblyInfoInputs.cache
+C:\Users\ып\Desktop\EPAM\xt_net_web\EpamTasks\Task6\EpamTask6.User.DAO.Interfaces\obj\Debug\netstandard2.0\Users.Dao.Interfaces.AssemblyInfo.cs
+C:\Users\ып\Desktop\EPAM\xt_net_web\EpamTasks\Task6\EpamTask6.User.DAO.Interfaces\obj\Debug\netstandard2.0\Users.Dao.Interfaces.csproj.CopyComplete
+C:\Users\ып\Desktop\EPAM\xt_net_web\EpamTasks\Task6\EpamTask6.User.DAO.Interfaces\obj\Debug\netstandard2.0\Users.Dao.Interfaces.dll
+C:\Users\ып\Desktop\EPAM\xt_net_web\EpamTasks\Task6\EpamTask6.User.DAO.Interfaces\obj\Debug\netstandard2.0\Users.Dao.Interfaces.pdb

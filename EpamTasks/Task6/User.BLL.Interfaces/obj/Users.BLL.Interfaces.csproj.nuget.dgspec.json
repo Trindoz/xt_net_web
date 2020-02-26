@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\ып\\source\\repos\\EpamTask6.User.BLL\\User.BLL.Interfaces\\Users.BLL.Interfaces.csproj": {}
+    "C:\\Users\\ып\\Desktop\\EPAM\\xt_net_web\\EpamTasks\\Task6\\User.BLL.Interfaces\\Users.BLL.Interfaces.csproj": {}
   },
   "projects": {
-    "C:\\Users\\ып\\source\\repos\\EpamTask6.User.BLL\\EpamTask6.User.Entities\\Users.Entities.csproj": {
+    "C:\\Users\\ып\\Desktop\\EPAM\\xt_net_web\\EpamTasks\\Task6\\EpamTask6.User.Entities\\Users.Entities.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ып\\source\\repos\\EpamTask6.User.BLL\\EpamTask6.User.Entities\\Users.Entities.csproj",
+        "projectUniqueName": "C:\\Users\\ып\\Desktop\\EPAM\\xt_net_web\\EpamTasks\\Task6\\EpamTask6.User.Entities\\Users.Entities.csproj",
         "projectName": "Users.Entities",
-        "projectPath": "C:\\Users\\ып\\source\\repos\\EpamTask6.User.BLL\\EpamTask6.User.Entities\\Users.Entities.csproj",
+        "projectPath": "C:\\Users\\ып\\Desktop\\EPAM\\xt_net_web\\EpamTasks\\Task6\\EpamTask6.User.Entities\\Users.Entities.csproj",
         "packagesPath": "C:\\Users\\ып\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ып\\source\\repos\\EpamTask6.User.BLL\\EpamTask6.User.Entities\\obj\\",
+        "outputPath": "C:\\Users\\ып\\Desktop\\EPAM\\xt_net_web\\EpamTasks\\Task6\\EpamTask6.User.Entities\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"
@@ -63,18 +63,18 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\ып\\source\\repos\\EpamTask6.User.BLL\\User.BLL.Interfaces\\Users.BLL.Interfaces.csproj": {
+    "C:\\Users\\ып\\Desktop\\EPAM\\xt_net_web\\EpamTasks\\Task6\\User.BLL.Interfaces\\Users.BLL.Interfaces.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ып\\source\\repos\\EpamTask6.User.BLL\\User.BLL.Interfaces\\Users.BLL.Interfaces.csproj",
+        "projectUniqueName": "C:\\Users\\ып\\Desktop\\EPAM\\xt_net_web\\EpamTasks\\Task6\\User.BLL.Interfaces\\Users.BLL.Interfaces.csproj",
         "projectName": "Users.BLL.Interfaces",
-        "projectPath": "C:\\Users\\ып\\source\\repos\\EpamTask6.User.BLL\\User.BLL.Interfaces\\Users.BLL.Interfaces.csproj",
+        "projectPath": "C:\\Users\\ып\\Desktop\\EPAM\\xt_net_web\\EpamTasks\\Task6\\User.BLL.Interfaces\\Users.BLL.Interfaces.csproj",
         "packagesPath": "C:\\Users\\ып\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ып\\source\\repos\\EpamTask6.User.BLL\\User.BLL.Interfaces\\obj\\",
+        "outputPath": "C:\\Users\\ып\\Desktop\\EPAM\\xt_net_web\\EpamTasks\\Task6\\User.BLL.Interfaces\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"
@@ -94,8 +94,8 @@
         "frameworks": {
           "netstandard2.0": {
             "projectReferences": {
-              "C:\\Users\\ып\\source\\repos\\EpamTask6.User.BLL\\EpamTask6.User.Entities\\Users.Entities.csproj": {
-                "projectPath": "C:\\Users\\ып\\source\\repos\\EpamTask6.User.BLL\\EpamTask6.User.Entities\\Users.Entities.csproj"
+              "C:\\Users\\ып\\Desktop\\EPAM\\xt_net_web\\EpamTasks\\Task6\\EpamTask6.User.Entities\\Users.Entities.csproj": {
+                "projectPath": "C:\\Users\\ып\\Desktop\\EPAM\\xt_net_web\\EpamTasks\\Task6\\EpamTask6.User.Entities\\Users.Entities.csproj"
               }
             }
           }
@@ -130,7 +130,7 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
         }
       }
     }

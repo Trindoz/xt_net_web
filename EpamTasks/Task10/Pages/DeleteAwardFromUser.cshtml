@@ -1,0 +1,14 @@
+﻿@using Task10.Models
+@using Users.Entities;
+@using Users.Ioc;
+@{
+    string s = Request["userid"];
+    string s1 = Request["awardid"];
+    int userid = Int32.Parse(s);
+    int awardid = Int32.Parse(s1);
+    var logicaward = DependencyResolver.AwardLogic;
+    Award award = logicaward.GetById(awardid);
+    var logicuser = DependencyResolver.UserLogic;
+    logicuser.DeleteAward(userid, award);
+    Response.Redirect("~/Pages/Edit?id=" + s);
+}

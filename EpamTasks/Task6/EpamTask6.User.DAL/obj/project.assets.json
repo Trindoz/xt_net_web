@@ -266,11 +266,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\ып\\source\\repos\\EpamTask6.User.BLL\\EpamTask6.User.DAL\\Users.DAL.csproj",
+      "projectUniqueName": "C:\\Users\\ып\\Desktop\\EPAM\\xt_net_web\\EpamTasks\\Task6\\EpamTask6.User.DAL\\Users.DAL.csproj",
       "projectName": "Users.DAL",
-      "projectPath": "C:\\Users\\ып\\source\\repos\\EpamTask6.User.BLL\\EpamTask6.User.DAL\\Users.DAL.csproj",
+      "projectPath": "C:\\Users\\ып\\Desktop\\EPAM\\xt_net_web\\EpamTasks\\Task6\\EpamTask6.User.DAL\\Users.DAL.csproj",
       "packagesPath": "C:\\Users\\ып\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\ып\\source\\repos\\EpamTask6.User.BLL\\EpamTask6.User.DAL\\obj\\",
+      "outputPath": "C:\\Users\\ып\\Desktop\\EPAM\\xt_net_web\\EpamTasks\\Task6\\EpamTask6.User.DAL\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\"
@@ -290,11 +290,11 @@
       "frameworks": {
         "netstandard2.0": {
           "projectReferences": {
-            "C:\\Users\\ып\\source\\repos\\EpamTask6.User.BLL\\EpamTask6.User.DAO.Interfaces\\Users.Dao.Interfaces.csproj": {
-              "projectPath": "C:\\Users\\ып\\source\\repos\\EpamTask6.User.BLL\\EpamTask6.User.DAO.Interfaces\\Users.Dao.Interfaces.csproj"
+            "C:\\Users\\ып\\Desktop\\EPAM\\xt_net_web\\EpamTasks\\Task6\\EpamTask6.User.DAO.Interfaces\\Users.Dao.Interfaces.csproj": {
+              "projectPath": "C:\\Users\\ып\\Desktop\\EPAM\\xt_net_web\\EpamTasks\\Task6\\EpamTask6.User.DAO.Interfaces\\Users.Dao.Interfaces.csproj"
             },
-            "C:\\Users\\ып\\source\\repos\\EpamTask6.User.BLL\\EpamTask6.User.Entities\\Users.Entities.csproj": {
-              "projectPath": "C:\\Users\\ып\\source\\repos\\EpamTask6.User.BLL\\EpamTask6.User.Entities\\Users.Entities.csproj"
+            "C:\\Users\\ып\\Desktop\\EPAM\\xt_net_web\\EpamTasks\\Task6\\EpamTask6.User.Entities\\Users.Entities.csproj": {
+              "projectPath": "C:\\Users\\ып\\Desktop\\EPAM\\xt_net_web\\EpamTasks\\Task6\\EpamTask6.User.Entities\\Users.Entities.csproj"
             }
           }
         }
@@ -329,7 +329,7 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
       }
     }
   }

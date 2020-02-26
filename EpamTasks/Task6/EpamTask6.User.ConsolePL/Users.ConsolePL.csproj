@@ -67,7 +67,7 @@
       <Name>Users.BLL.Interfaces</Name>
     </ProjectReference>
     <ProjectReference Include="..\Users.Ioc\Users.Ioc.csproj">
-      <Project>{8878F302-9A5D-4699-AC49-102223E23603}</Project>
+      <Project>{4A1FC2C9-1548-4EF9-BAEA-512BEDE54AF1}</Project>
       <Name>Users.Ioc</Name>
     </ProjectReference>
   </ItemGroup>

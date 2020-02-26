@@ -1,0 +1,97 @@
+﻿@using Task10.Models
+@using Users.Entities;
+@using Users.Ioc;
+@{
+    Layout = "~/Layouts/_AdminLayout.cshtml";
+    string s = Request["id"];
+    int id = 0;
+    if (IsPost)
+    {
+        int userid =Int32.Parse(Request.Form["id"]);
+        string name = Request.Form["name"];
+        string image = Request.Form["image"];
+        DateTime birthday = DateTime.Parse(Request.Form["birthday"]);
+        var userlogic = DependencyResolver.UserLogic;
+        userlogic.Add(new User()
+        {
+            Id = userid,
+            Name = name,
+            Photo = image,
+            DateOfBirth = birthday
+        }) ;
+    }
+    if (s != null)
+    {
+        id = Int32.Parse(s);
+        Edit edit = new Edit();
+        User user = new User();
+        user = edit.GetUser(id);
+
+<div style="position:absolute; margin-top:100px;width:500px; " class="p-3 mb-2 bg-dark text-white">
+    <form method="post" enctype="multipart/form-data">
+        <input type="hidden" value="@user.Id" name="id" />
+        <div class="form-group">
+            <label for="name">Name</label>
+            <input required id="name" class="form-control" value="@user.Name" name="name" />
+        </div>
+        <div class="form-group">
+            <label for="photo">Photo</label>
+            <div>
+                @{if (user.Photo != null)
+                    { <img style="width:50px;height:50px;" src="@user.Photo" alt="image" />}
+                    else
+                    {<img style="width:50px;height:50px;" src="~/Images/thumbs/thumbnail.jpg" alt="image" />}
+                }
+                <input type="file" style="width:130px;" accept="image/*" name="image" />
+            </div>
+        </div>
+        <div class="form-group">
+            <label for="birthday">Birthday</label>
+            <input required type="date" id="birthday" class="form-control" value="@user.DateOfBirth.ToString("yyyy-MM-dd")" name="birthday" />
+        </div>
+        <div class="form-group">
+            <br>      
+            <div class="primer">
+                <label>Awards</label>            
+                <div class="block">
+                    @{ if (user.Award != null)
+                        {
+                            foreach (var item in user.Award)
+                            {
+                                <label id="lab1">@item.Title</label>
+                                <a id="lab" class="btn btn-sm btn-danger" href="~/Pages/DeleteAwardFromUser.cshtml?userid=@s&awardid=@item.Id">Delete</a>
+                            }
+                        }
+                    }
+                </div>
+                <label for="check_label1">Add Award</label>
+                <input id="check_label1" type="checkbox" checked />
+                <div class="block1">
+                    @{
+                        var logic = DependencyResolver.AwardLogic;
+                        if (logic.GetAwards().Count() != 0)
+                        {
+                            foreach (var item in logic.GetAwards())
+                            {
+                                <label id="lab1">@item.Title</label>
+                                <a id="lab" class="btn btn-sm btn-warning" href="~/Pages/AddAwardToUser.cshtml?userid=@s&awardid=@item.Id">Add</a>
+                                <br>
+                            }
+                        }
+                    }
+                </div>
+            </div>  
+        </div>
+        <div class="text-center">
+            <button class="btn btn-primary" type="submit">Save</button>
+        </div>
+    </form>
+</div>
+
+}
+}
+
+
+
+
+

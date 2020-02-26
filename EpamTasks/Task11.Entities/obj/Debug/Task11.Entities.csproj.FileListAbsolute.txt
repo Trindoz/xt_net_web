@@ -1,0 +1,5 @@
+C:\Users\ып\Desktop\EPAM\xt_net_web\EpamTasks\Task11.Entities\bin\Debug\Task11.Entities.dll
+C:\Users\ып\Desktop\EPAM\xt_net_web\EpamTasks\Task11.Entities\bin\Debug\Task11.Entities.pdb
+C:\Users\ып\Desktop\EPAM\xt_net_web\EpamTasks\Task11.Entities\obj\Debug\Task11.Entities.csprojAssemblyReference.cache
+C:\Users\ып\Desktop\EPAM\xt_net_web\EpamTasks\Task11.Entities\obj\Debug\Task11.Entities.dll
+C:\Users\ып\Desktop\EPAM\xt_net_web\EpamTasks\Task11.Entities\obj\Debug\Task11.Entities.pdb

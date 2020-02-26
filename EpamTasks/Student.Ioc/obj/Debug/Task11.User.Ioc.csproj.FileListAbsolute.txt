@@ -1,0 +1,16 @@
+C:\Users\ып\Desktop\EPAM\xt_net_web\EpamTasks\Student.Ioc\bin\Debug\Student.Ioc.dll
+C:\Users\ып\Desktop\EPAM\xt_net_web\EpamTasks\Student.Ioc\bin\Debug\Student.Ioc.pdb
+C:\Users\ып\Desktop\EPAM\xt_net_web\EpamTasks\Student.Ioc\bin\Debug\Task11.BLL.dll
+C:\Users\ып\Desktop\EPAM\xt_net_web\EpamTasks\Student.Ioc\bin\Debug\Task11.BLL.Interfaces.dll
+C:\Users\ып\Desktop\EPAM\xt_net_web\EpamTasks\Student.Ioc\bin\Debug\Task11.DAL.dll
+C:\Users\ып\Desktop\EPAM\xt_net_web\EpamTasks\Student.Ioc\bin\Debug\Task11.DAL.Interfaces.dll
+C:\Users\ып\Desktop\EPAM\xt_net_web\EpamTasks\Student.Ioc\bin\Debug\Task11.Entities.dll
+C:\Users\ып\Desktop\EPAM\xt_net_web\EpamTasks\Student.Ioc\bin\Debug\Task11.BLL.Interfaces.pdb
+C:\Users\ып\Desktop\EPAM\xt_net_web\EpamTasks\Student.Ioc\bin\Debug\Task11.BLL.pdb
+C:\Users\ып\Desktop\EPAM\xt_net_web\EpamTasks\Student.Ioc\bin\Debug\Task11.DAL.Interfaces.pdb
+C:\Users\ып\Desktop\EPAM\xt_net_web\EpamTasks\Student.Ioc\bin\Debug\Task11.DAL.pdb
+C:\Users\ып\Desktop\EPAM\xt_net_web\EpamTasks\Student.Ioc\bin\Debug\Task11.Entities.pdb
+C:\Users\ып\Desktop\EPAM\xt_net_web\EpamTasks\Student.Ioc\obj\Debug\Task11.User.Ioc.csprojAssemblyReference.cache
+C:\Users\ып\Desktop\EPAM\xt_net_web\EpamTasks\Student.Ioc\obj\Debug\Task11.User.Ioc.csproj.CopyComplete
+C:\Users\ып\Desktop\EPAM\xt_net_web\EpamTasks\Student.Ioc\obj\Debug\Student.Ioc.dll
+C:\Users\ып\Desktop\EPAM\xt_net_web\EpamTasks\Student.Ioc\obj\Debug\Student.Ioc.pdb

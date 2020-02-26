@@ -1,0 +1,20 @@
+﻿@using Task11.User.Ioc
+@using Task11.Entities
+@if (IsPost)
+{
+    string name=Request.Form["Name"];
+    var user = new User
+    {
+        Name = name,
+    };
+    <p>@UserIoc.UserLogic.Add(user)</p>
+    Response.Redirect("~/Pages/UserTest.cshtml");
+}
+else
+{
+    <form method="post" action="~/Pages/UserAddTest.cshtml">
+        <label for="inputName">Name</label>
+        <input name="Name" id="inputName" />     
+        <button type="submit">Add</button>
+    </form>
+}

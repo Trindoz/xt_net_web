@@ -1,0 +1,12 @@
+C:\Users\ып\Desktop\EPAM\xt_net_web\EpamTasks\Task11.BLL\bin\Debug\Task11.BLL.dll
+C:\Users\ып\Desktop\EPAM\xt_net_web\EpamTasks\Task11.BLL\bin\Debug\Task11.BLL.pdb
+C:\Users\ып\Desktop\EPAM\xt_net_web\EpamTasks\Task11.BLL\bin\Debug\Task11.BLL.Interfaces.dll
+C:\Users\ып\Desktop\EPAM\xt_net_web\EpamTasks\Task11.BLL\bin\Debug\Task11.DAL.Interfaces.dll
+C:\Users\ып\Desktop\EPAM\xt_net_web\EpamTasks\Task11.BLL\bin\Debug\Task11.Entities.dll
+C:\Users\ып\Desktop\EPAM\xt_net_web\EpamTasks\Task11.BLL\bin\Debug\Task11.BLL.Interfaces.pdb
+C:\Users\ып\Desktop\EPAM\xt_net_web\EpamTasks\Task11.BLL\bin\Debug\Task11.DAL.Interfaces.pdb
+C:\Users\ып\Desktop\EPAM\xt_net_web\EpamTasks\Task11.BLL\bin\Debug\Task11.Entities.pdb
+C:\Users\ып\Desktop\EPAM\xt_net_web\EpamTasks\Task11.BLL\obj\Debug\Task11.BLL.csprojAssemblyReference.cache
+C:\Users\ып\Desktop\EPAM\xt_net_web\EpamTasks\Task11.BLL\obj\Debug\Task11.BLL.csproj.CopyComplete
+C:\Users\ып\Desktop\EPAM\xt_net_web\EpamTasks\Task11.BLL\obj\Debug\Task11.BLL.dll
+C:\Users\ып\Desktop\EPAM\xt_net_web\EpamTasks\Task11.BLL\obj\Debug\Task11.BLL.pdb

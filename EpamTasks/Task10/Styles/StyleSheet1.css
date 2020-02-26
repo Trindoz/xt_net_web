@@ -1,0 +1,56 @@
+﻿body {
+    background: url('../Images/background.jpg') no-repeat;
+    background-size:100% 900px;
+}
+.block{
+    margin-top:30px;
+    margin-left:-100px;
+    width:200px;
+    display:inline;
+}
+.primer{
+    display:flex;
+}
+label{
+    cursor:pointer;
+    height:20px;
+    width:100px;
+}
+#lab1{
+    width:50px;
+    color:#000000;
+    cursor:default;
+}
+#check_label{
+    display:none;
+}
+#check_label:checked ~.block{
+    height:0px;
+    opacity:0;
+}
+.block1 {
+    margin-top:30px;
+    margin-left:-100px;
+    width: 200px;
+    height: 200px;
+    background: #eee;
+    transition: 0.3s;
+    overflow:scroll;
+}
+p{
+    color:#000000;
+}
+#check_label1 {
+    display: none;
+}
+#label{
+    color:#000000;
+}
+#lab{
+    margin-left:50px;
+}
+ 
+    #check_label1:checked ~ .block1 {
+        height: 0px;
+        opacity: 0;
+    }

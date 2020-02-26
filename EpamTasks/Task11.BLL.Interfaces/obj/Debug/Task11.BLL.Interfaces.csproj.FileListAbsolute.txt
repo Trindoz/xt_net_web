@@ -1,0 +1,10 @@
+C:\Users\ып\Desktop\EPAM\xt_net_web\EpamTasks\Task11.BLL.Interfaces\bin\Debug\Task11.BLL.Interfaces.dll
+C:\Users\ып\Desktop\EPAM\xt_net_web\EpamTasks\Task11.BLL.Interfaces\bin\Debug\Task11.BLL.Interfaces.pdb
+C:\Users\ып\Desktop\EPAM\xt_net_web\EpamTasks\Task11.BLL.Interfaces\bin\Debug\Task11.Entities.dll
+C:\Users\ып\Desktop\EPAM\xt_net_web\EpamTasks\Task11.BLL.Interfaces\bin\Debug\Users.Entities.dll
+C:\Users\ып\Desktop\EPAM\xt_net_web\EpamTasks\Task11.BLL.Interfaces\bin\Debug\Task11.Entities.pdb
+C:\Users\ып\Desktop\EPAM\xt_net_web\EpamTasks\Task11.BLL.Interfaces\bin\Debug\Users.Entities.pdb
+C:\Users\ып\Desktop\EPAM\xt_net_web\EpamTasks\Task11.BLL.Interfaces\obj\Debug\Task11.BLL.Interfaces.csprojAssemblyReference.cache
+C:\Users\ып\Desktop\EPAM\xt_net_web\EpamTasks\Task11.BLL.Interfaces\obj\Debug\Task11.BLL.Interfaces.csproj.CopyComplete
+C:\Users\ып\Desktop\EPAM\xt_net_web\EpamTasks\Task11.BLL.Interfaces\obj\Debug\Task11.BLL.Interfaces.dll
+C:\Users\ып\Desktop\EPAM\xt_net_web\EpamTasks\Task11.BLL.Interfaces\obj\Debug\Task11.BLL.Interfaces.pdb

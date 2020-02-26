@@ -1,0 +1,28 @@
+﻿@{
+     Layout = "~/Layouts/_Layout.cshtml";
+}
+
+    <li class="nav-item active">
+    <a class="nav-link" href="~/Pages/Admin.cshtml">Home <span class="sr-only">(current)</span></a>
+</li>
+<li class="nav-item">
+    <a class="nav-link" href="~/Pages/Users.cshtml">Users</a>
+</li>
+<li class="nav-item">
+    <a class="nav-link" href="~/Pages/Awards.cshtml">Awards</a>
+</li>
+<li class="nav-item">
+    <a class="nav-link" href="~/Pages/SignOut.cshtml" title="Sign Out"><i class="fa fa-sign-out"></i></a>
+
+</li>
+<button type="button" onclick='location.href="EditUsers.cshtml"' class="btn btn-secondary">EDIT</button>
+<div class="alert-light">User: @User.Identity.Name</div>
+@if (User.IsInRole("Admin"))
+{
+<div class="alert-warning">АДМИНКА</div>
+}
+
+@RenderBody()
+@RenderSection("Users", required: false)
+@RenderSection("Awards", required: false)
+

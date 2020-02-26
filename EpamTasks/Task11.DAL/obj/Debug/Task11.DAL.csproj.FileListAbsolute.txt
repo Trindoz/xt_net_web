@@ -1,0 +1,10 @@
+C:\Users\ып\Desktop\EPAM\xt_net_web\EpamTasks\Task11.DAL\bin\Debug\Task11.DAL.dll
+C:\Users\ып\Desktop\EPAM\xt_net_web\EpamTasks\Task11.DAL\bin\Debug\Task11.DAL.pdb
+C:\Users\ып\Desktop\EPAM\xt_net_web\EpamTasks\Task11.DAL\bin\Debug\Task11.DAL.Interfaces.dll
+C:\Users\ып\Desktop\EPAM\xt_net_web\EpamTasks\Task11.DAL\bin\Debug\Task11.Entities.dll
+C:\Users\ып\Desktop\EPAM\xt_net_web\EpamTasks\Task11.DAL\bin\Debug\Task11.DAL.Interfaces.pdb
+C:\Users\ып\Desktop\EPAM\xt_net_web\EpamTasks\Task11.DAL\bin\Debug\Task11.Entities.pdb
+C:\Users\ып\Desktop\EPAM\xt_net_web\EpamTasks\Task11.DAL\obj\Debug\Task11.DAL.csprojAssemblyReference.cache
+C:\Users\ып\Desktop\EPAM\xt_net_web\EpamTasks\Task11.DAL\obj\Debug\Task11.DAL.csproj.CopyComplete
+C:\Users\ып\Desktop\EPAM\xt_net_web\EpamTasks\Task11.DAL\obj\Debug\Task11.DAL.dll
+C:\Users\ып\Desktop\EPAM\xt_net_web\EpamTasks\Task11.DAL\obj\Debug\Task11.DAL.pdb

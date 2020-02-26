@@ -1,0 +1,26 @@
+﻿@using Users.Ioc;
+@{
+    Layout = "~/Layouts/_AdminLayout.cshtml";
+    Page.Title = "Awards";
+}
+@section Awards
+    {
+<form action="/" method="post">
+    <div style="width:300px; height:200px; background-color:white;margin-top:100px; position:absolute;">
+        <ul>
+            @{var award = DependencyResolver.AwardLogic;
+
+                if (award.GetAwards().Count() == 0)
+                {
+                    <li>The list is Empty</li>
+
+                }
+                foreach (var item in award.GetAwards())
+                {
+                    <li>@item.Title</li>
+                }
+            }
+        </ul>
+    </div>
+</form>
+    }

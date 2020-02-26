@@ -6,3 +6,11 @@ C:\Users\ып\source\repos\EpamTask6.User.BLL\EpamTask6.User.Entities\obj\Debug\
 C:\Users\ып\source\repos\EpamTask6.User.BLL\EpamTask6.User.Entities\obj\Debug\netstandard2.0\Users.Entities.AssemblyInfo.cs
 C:\Users\ып\source\repos\EpamTask6.User.BLL\EpamTask6.User.Entities\obj\Debug\netstandard2.0\Users.Entities.dll
 C:\Users\ып\source\repos\EpamTask6.User.BLL\EpamTask6.User.Entities\obj\Debug\netstandard2.0\Users.Entities.pdb
+C:\Users\ып\Desktop\EPAM\xt_net_web\EpamTasks\Task6\EpamTask6.User.Entities\bin\Debug\netstandard2.0\Users.Entities.deps.json
+C:\Users\ып\Desktop\EPAM\xt_net_web\EpamTasks\Task6\EpamTask6.User.Entities\bin\Debug\netstandard2.0\Users.Entities.dll
+C:\Users\ып\Desktop\EPAM\xt_net_web\EpamTasks\Task6\EpamTask6.User.Entities\bin\Debug\netstandard2.0\Users.Entities.pdb
+C:\Users\ып\Desktop\EPAM\xt_net_web\EpamTasks\Task6\EpamTask6.User.Entities\obj\Debug\netstandard2.0\Users.Entities.csprojAssemblyReference.cache
+C:\Users\ып\Desktop\EPAM\xt_net_web\EpamTasks\Task6\EpamTask6.User.Entities\obj\Debug\netstandard2.0\Users.Entities.AssemblyInfoInputs.cache
+C:\Users\ып\Desktop\EPAM\xt_net_web\EpamTasks\Task6\EpamTask6.User.Entities\obj\Debug\netstandard2.0\Users.Entities.AssemblyInfo.cs
+C:\Users\ып\Desktop\EPAM\xt_net_web\EpamTasks\Task6\EpamTask6.User.Entities\obj\Debug\netstandard2.0\Users.Entities.dll
+C:\Users\ып\Desktop\EPAM\xt_net_web\EpamTasks\Task6\EpamTask6.User.Entities\obj\Debug\netstandard2.0\Users.Entities.pdb
